@@ -1,6 +1,126 @@
 body {
-    color: darkblue;
+    color: rgb(255, 255, 255);
+    font-size: 0.95rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #7792bb85;
+    margin: 0px;
+    padding: 0px;
+}
+
+.NoraRutgers {
+    background-color: rgb(104, 167, 220);
+    color: rgb(255, 255, 255);
     font-size: 4.5rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular',Geneva, Verdana, sans-serif;
-    font-variant: small-caps;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 15px;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-style: inset ;
+    border-width: 10px;
+    border-color: rgb(63, 104, 137);
+
+}
+
+.box {
+    text-align: left;
+    border: 10px solid #3f6889;
+    max-width: 300px;
+    margin: 5% auto;
+    text-align: justify;
+    height: 161px;
+    width: 260px;
+
+}
+
+.container {
+    border: 10px inset;
+    display: flex;
+    width: 590px;
+    margin: 5% auto;
+    margin-top: -360px;
+    padding: 10px;
+    height: 212px;
+
+}
+
+.nora {
+    padding: 8px 15px !important;
+}
+
+.coderen {
+    padding: 0px 15px !important;
+}
+
+#doos1 {
+    border-width: 1px;
+    background-color: #68a7dc;
+}
+
+#doos2 {
+    border-width: 1px;
+    background-color: #68a7dc;
+    float: left;
+}
+
+.dozen {
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    display: inline-block;
+
+}
+
+.tekst2 {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width:60%;
+    margin: 0 auto
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a {
+    color: #0c4c80;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #022038;
+}
+
+.teksten {
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 0px 15px 15px 15px
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+  }
+  
+  .image-container img {
+    width: 300px; 
+    height: auto;
+  }
+
+  .image2 {
+    margin-left: 613px;
+}
+
+.image1 {
+    margin-right: 613px;
 }
